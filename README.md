@@ -24,5 +24,5 @@ The script requires 3 parameters:
 The script is equiped with a resume mechanism, so it will start from the last occurence when you interrupted the execution.
 
 # Implementation
-This script uses a sequential search algorithm, which has a O(n²) complexity, so it is very slow and doesn't suite cases where there are a lot of lines to compare.
-For those cases use the Goland version, which uses a faster algorithm and multithread performances.
+This script now uses MergeSort + BinarySearch, which is really faster than the old sequential algorithm.
+For those cases use the Goland version, which uses multithread performances.
